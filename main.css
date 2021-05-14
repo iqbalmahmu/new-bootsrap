@@ -7,97 +7,38 @@
   /* text-align: center; */
 }
 
-/* .container {
-  max-width: 1200px;
-
-  margin: 0px auto;
-  /* width: 800px; 
-  display: flex;
-
-  background: rgb(30, 139, 75);
+.parent {
+  width: 700px;
+  padding: 30px;
+  border: 10px solid rgb(223, 9, 9);
+  margin: auto;
   text-align: center;
-} */
-body {
-    margin: 0 auto;
-    text-align: center;
+  position: relative;
 }
-.container {
-  
-  /* margin-left: 40px; */
+
+.child1 {
+  width: 170px;
+  height: 60px;
+  background: rgb(224, 144, 144);
+  position: absolute;
+
+  left: 10px;
+}
+
+.child2 {
+  width: 170px;
+  height: 60px;
+  background: rgb(50, 161, 100);
+}
+
+.child3 {
+  width: 170px;
+  height: 60px;
+  background: rgb(54, 14, 92);
+}
+
+.same {
   display: inline-block;
-  /* text-align: center; */
-  /* background: rgba(240, 7, 7, 0.719); */
-   width: 700px; 
-   height: 200px;
-}
-
-.header {
-  background: rgb(221, 236, 165);
-}
-
-.nav {
-  background: rgb(231, 129, 129);
-  margin-top: 5px;
-}
-
-
-.footer {
-  background: rgb(92, 35, 223);
-}
-
-.aside {
-  background: rgb(148, 11, 17);
-}
-
-/* .test {
-  width: 500px;
-  height: 400px;
-  background: rgb(105, 26, 70);
-  /* text-align: center; */
-  margin: 0 auto;
-} */
-
-/* this portion is for nav bar only */
-
-
-.main-manu {
-
-}
-
-.main-manu li {
-list-style-type: none;
-display: inline-block;
-margin-left: -5px;
-
-}
-
-.main-manu li a {
-    background: rgb(72, 231, 144);
-padding: 15px;
-margin: -5px;
-text-decoration: none;
-text-transform: uppercase;
-font-weight: 300;
-}
-
-.main-manu li a:hover {
-background: rgb(3, 151, 65);
-transition: .4s;
-}
-
-.clear {
-    clear: both;
-}
-
-
-section {
-}
-
-.another {
-  background-image: url(image/myimage.jpg);
-  padding: 150px;
-  background-position:  center;
-  background-size:contain;
-  background-repeat: no-repeat;
-
+  margin-left: -5px;
+  padding: 70px;
 }
