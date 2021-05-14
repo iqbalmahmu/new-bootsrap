@@ -9,4 +9,13 @@
   width: 200px; */
   background-color: violet;
   color: wheat;
+  display: inline-block;
+}
+
+.another-div {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(27, 156, 113);
+  color: wheat;
+  display: inline-block;
 }
