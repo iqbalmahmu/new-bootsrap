@@ -26,7 +26,7 @@ body {
   /* margin-left: 40px; */
   display: inline-block;
   /* text-align: center; */
-  background: rgba(240, 7, 7, 0.719);
+  /* background: rgba(240, 7, 7, 0.719); */
    width: 700px; 
    height: 200px;
 }
@@ -40,9 +40,6 @@ body {
   margin-top: 5px;
 }
 
-.section {
-  background: rgb(55, 218, 117);
-}
 
 .footer {
   background: rgb(92, 35, 223);
@@ -90,4 +87,17 @@ transition: .4s;
 
 .clear {
     clear: both;
+}
+
+
+section {
+}
+
+.another {
+  background-image: url(image/myimage.jpg);
+  padding: 150px;
+  background-position:  center;
+  background-size:contain;
+  background-repeat: no-repeat;
+
 }
