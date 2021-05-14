@@ -1,21 +1,38 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
-
-.test-div {
-  /* height: 200px;
-  width: 200px; */
-  background-color: violet;
-  color: wheat;
-  display: inline-block;
 }
 
-.another-div {
-  height: 200px;
-  width: 200px;
-  background-color: rgb(27, 156, 113);
-  color: wheat;
-  display: inline-block;
+.main-container {
+  margin: 0px auto;
+  width: 1024px;
+  text-align: center;
+  /* background: rgb(191, 233, 124); */
+  color: rgb(241, 245, 248);
+}
+
+.op {
+  padding: 30px 0px;
+}
+
+image {
+  max-width: 100%;
+  margin-bottom: -15px;
+}
+
+.manu {
+  background-color: #e74c3c;
+}
+
+.container {
+  background: #16a085;
+}
+
+.footer {
+  background: #bc1abc;
+}
+
+.footer-bottom {
+  background: #34495e;
 }
