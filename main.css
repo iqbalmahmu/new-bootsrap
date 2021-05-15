@@ -1,44 +1,87 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+
   /* display: inline-block; */
   /* margin: 0 auto; */
   /* text-align: center; */
 }
 
-.parent {
-  width: 700px;
-  padding: 30px;
-  border: 10px solid rgb(223, 9, 9);
-  margin: auto;
+.header-manu {
+  background: rgb(12, 197, 221);
+}
+
+.header-manu ul {
   text-align: center;
+}
+
+.header-manu ul li {
+  display: inline-block;
+  margin-left: -4px;
+}
+
+.header-manu ul li a {
+  color: rgb(235, 241, 235);
+  padding: 20px 40px;
+  display: inline-block;
+  text-decoration: none;
+  border-right: 1px solid white;
+  font-size: 20px;
+}
+.header-manu ul li:first-child a {
+  border-left: 1px solid white;
+}
+
+.header-manu ul li:hover > a {
+  background: rgb(2, 58, 110);
+}
+
+/* dropdown start here */
+.header-manu ul li {
   position: relative;
 }
-
-.child1 {
-  width: 170px;
-  height: 60px;
-  background: rgb(224, 144, 144);
+.header-manu ul li ul {
   position: absolute;
-
-  left: 10px;
+  left: 0;
+  top: 100%;
+  background: rgb(13, 158, 202);
+  width: 300px;
+  transition: 0.4s;
 }
 
-.child2 {
-  width: 170px;
-  height: 60px;
-  background: rgb(50, 161, 100);
+.header-manu ul li ul li {
+  display: block;
+
+  margin: 0px;
+  border-top: 1px solid #ddd;
 }
 
-.child3 {
-  width: 170px;
-  height: 60px;
-  background: rgb(54, 14, 92);
+.header-manu ul li ul li a {
+  display: block;
+
+  border: none;
+  border-bottom: 1px solid #ddd;
 }
 
-.same {
-  display: inline-block;
-  margin-left: -5px;
-  padding: 70px;
+.header-manu ul ul li:first-child a {
+  border: none;
 }
+
+/* hover part */
+.header-manu ul li ul {
+  /* display: none; */
+  opacity: 0;
+  visibility: hidden;
+  transform: scaleY(0);
+  transform-origin: top center;
+}
+
+.header-manu ul li:hover ul {
+  /* display: block; */
+  opacity: 1;
+  visibility: visible;
+  transform: scaleY(1);
+}
+
+/* .header-manu ul li ul li a:hover {
+} */
