@@ -1,0 +1,19 @@
+{
+  "name": "bootsrap-pro",
+  "version": "1.0.0",
+  "description": "javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqbalmahmu/new-bootsrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iqbalmahmu/new-bootsrap/issues"
+  },
+  "homepage": "https://github.com/iqbalmahmu/new-bootsrap#readme"
+}
