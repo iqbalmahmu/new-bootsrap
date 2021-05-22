@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // // let name = "foysal";
 
 // // console.log(name);
@@ -141,3 +142,65 @@ console.log(x);
 
 var f = ages.findIndex(checkAdult);
 console.log(f);
+=======
+// const companises = [
+//   {
+//     name: "wrc",
+//     catagory: "atumotive",
+//     start: 2004,
+//     end: "present",
+//   },
+//   {
+//     name: "nagamotor",
+//     catagory: "atomobile",
+//     start: 2006,
+//     end: "present",
+//   },
+//   {
+//     name: "red-zon",
+//     catagory: "atumotive",
+//     start: 2003,
+//     end: "present",
+//   },
+//   {
+//     name: "nisan",
+//     catagory: "car-wash",
+//     start: 2004,
+//     end: "present",
+//   },
+//   {
+//     name: "ktm",
+//     catagory: "body-painting",
+//     start: 2005,
+//     end: "present",
+//   },
+//   {
+//     name: "other",
+//     catagory: "atumotive",
+//     start: 2004,
+//     end: "present",
+//   },
+// ];
+
+// const ages = [30, 39, 44, 48, 37, 51];
+
+// companises.forEach(function (company) {
+//   console.log(company.name);
+// });
+
+// ages.forEach(function (x) {
+//   console.log(x);
+// });
+
+// let openBusness = [];
+
+// for (let i = 0; i < ages.length; i++) {
+//   if (ages[i] > 35) {
+//     openBusness.push(ages[i]);
+//   }
+// }
+
+// console.log(openBusness);
+
+// // using foreach
+>>>>>>> test

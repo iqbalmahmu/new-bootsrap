@@ -1,26 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span {
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  max-width: 1300px;
+
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* .mid-content {
+  max-width: 1300px;
+  margin: auto;
+} */
+
+/* default css is up here */
+
+/* header section */
+
 header {
-  /* background: rgb(187, 26, 26); */
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 6px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
 }
 
-header .row {
-  background: rgb(24, 197, 67);
+header a {
+  color: rgb(104, 169, 243);
 }
 
-header .row img {
+.header-logo {
+  width: 30%;
 }
 
-.nav-manu {
+.header-logo span {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 50px;
 }
 
-/* banner csss */
-
-.banner {
-}
-
-.banner .row {
-}
-
-.banner img {
-  width: 150px;
+header img {
+  width: 90px;
   height: auto;
+  float: left;
+  margin-right: 10px;
+}
+
+.header-manu {
+  width: 58%;
+}
+
+.primary-manu {
+}
+
+.header-button {
+  width: 12%;
+}
+.header-btn {
+  /* width: 10%; */
+  padding: 1px 5px;
+  border: 2px solid #649ee1;
+  /* display: inline-block; */
+  /* display: block; */
+  line-height: 50px;
+  border-radius: 5px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* header manu css */
+
+.primary-manu ul {
+}
+
+.primary-manu ul li {
+  display: inline-block;
+}
+
+.primary-manu ul li a {
+  padding: 0px 20px;
+  display: block;
+  font-size: 18px;
+  line-height: 48px;
+}
+
+.primary-manu ul li a:hover {
+}
+
+/* dropdown css manu */
+
+.primary-manu ul li {
+  position: relative;
+}
+
+.primary-manu ul li ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 300px;
+  background: rgb(236, 206, 206);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+
+.primary-manu ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* banner section */
+.banner-section::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+.banner-section {
+  background: url(../image/slider.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 170px 0px;
+  color: #fff;
+  position: relative;
+  z-index: 9;
+  margin-top: 120px;
+}
+
+.banner-content {
+  /* z-index: 2; */
+}
+
+.banner-content h3 {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.banner-content h2 {
+  font-size: 30px;
+  padding: 25px 0;
+  font-weight: 600;
+}
+
+.default-btn {
+  color: gray;
+  background-color: whitesmoke;
+  padding: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+/* banner-bottom section */
+
+.banner-bottom {
+}
+
+.mid-content {
+  margin-top: 20px;
+}
+
+.video-left {
+  width: 48%;
+  margin-top: 21px;
+}
+
+.video-content {
+  width: 48%;
+}
+
+.video-content h3 {
+  font-size: 51px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.video-content p {
+  color: rgb(22, 22, 2);
+  font-size: 15px;
+  line-height: 14px;
+}
+
+/* dervice-section css */
+
+.service-section {
+  background: rgb(245, 242, 242);
+  padding: 100px 0;
+}
+
+.section-title {
+}
+
+.section-title h1 {
+}
+
+.section-title p {
+}
+
+/* service box section */
+
+.service-items {
+  margin-top: 80px;
+}
+
+.service-box {
+  width: 31.3%;
+  box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.4);
+  margin-right: 2%;
+  margin-bottom: 4%;
+  padding: 20px;
+}
+
+.s-icon {
+  float: left;
+  width: 30px;
+  max-height: 100%;
+  font-size: 30px;
+  margin-right: 7px;
+  color: rgb(80, 171, 231);
+}
+
+.s-content {
+  margin-right: 15px 0;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.s-content h3 {
+}
+
+.s-content p {
 }
